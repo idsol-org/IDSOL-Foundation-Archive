@@ -1,0 +1,87 @@
+@import url("https://cdn.jsdelivr.net/gh/vsalvino/computer-modern@main/fonts/serif.css");
+body {background:#f7f7f7;font-family:"Computer Modern Serif",sans-serif;letter-spacing: 0.05em;margin:20 auto;}
+footer {font-size:9px;text-align:center;}
+#c {max-width:768px;width:50%;margin:2em auto;display:block;}
+#map {width:95%;}
+#header {padding-bottom:24px}
+#header img{vertical-align:middle;padding-right:32px}
+#header span{font-size:32px}
+
+a {color: gray;}
+a:hover {color: darkgray;}
+
+ul.botnav {
+	max-width: 768px;
+    list-style-type:none;
+    margin:0 auto;
+    padding:0;
+    overflow:hidden;
+    background-color:#f7f7f7;
+}
+ul.botnav li {float: left;}
+ul.botnav li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul.botnav li a:hover:not(.active) {background-color: #eee;}
+ul.botnav li a.active {background-color: #ddd;}
+ul.botnav li.right {float: right;}
+@media screen and (max-width: 600px){
+    ul.botnav li.right, 
+    ul.botnav li {float: none;}
+}
+
+ul.topnav {
+    list-style-type:none;
+    margin:0 0 2em;
+    padding:0;
+    overflow:hidden;
+    background-color:#f7f7f7;
+}
+ul.topnav li {float: left;}
+ul.topnav li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul.topnav li a:hover:not(.active) {background-color:#eee;}
+ul.topnav li a.active {background-color:#ddd;}
+ul.topnav li.right {float: right;}
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+
+.container{max-width: 1024px; margin:50px auto;}
+
+.btn{background-color:#f7f7f7;color:#ccc;font-size: 24px;}
+.btn:hover{color:#666;cursor:pointer;}
+
+.content{margin: 20px 0}
+.content li{margin:0 20px 20px}
+.content ul{font-size:inherit;
+  -webkit-column-count: 2;
+     -moz-column-count: 2;
+          column-count: 2;}
+
+#s1,#s2,#s3,#s4,#s5,#s6,#s7,#s8{display:none}
+.category{width:19%;display:inline-block;text-align:center;vertical-align:top}
+.languages{margin-top:1em;-webkit-column-count:4;-moz-column-count:4;column-count:4;}
+.birds{width:32%;display:inline-block;text-align:center;vertical-align:top}
+.medal,.ppl{width:20%;display:inline-block;text-align:center;vertical-align:top;padding:1em}
+.sso{display:inline-block;vertical-align:middle;}
+.sso img{max-width:250px;margin:2em}
+
+
+.divTable{ display: table; }
+.divTableRow { display: table-row; }
+.divTableHeading { display: table-header-group;}
+.divTableCell, .divTableHead { display: table-cell; min-width: 300px}
+.divTableHeading { display: table-header-group;}
+.divTableFoot { display: table-footer-group;}
+.divTableBody { display: table-row-group;}
